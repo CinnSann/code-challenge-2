@@ -7,14 +7,15 @@
     display: flex;
     justify-content: space-evenly;
     color: #4B4B4B;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12.5px;
+    text-decoration: none;
 }
 
 .nav-position > p:hover {
-    text-decoration: underline;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 #left {
@@ -36,3 +37,76 @@ abbr {
     cursor: pointer;
     text-decoration: none;
 }
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45em;
+    flex-direction: column;
+}
+
+input[type='text'] {
+    border: 1px solid #DFE1E6;
+    margin-top: 1.3em;
+    margin-bottom: ;
+    border-radius: 2em;
+    width: 38em;
+    height: 2.7em;
+}
+input[type='submit'] {
+    flex-direction: row;
+    border: 1px solid #F8F9FA;
+    background-color: #F8F9FA;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 20px 3px ;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 20em;
+}
+input:hover {
+    cursor: pointer;
+}
+#footer {
+    border-top: 1px solid #dadce0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    line-height: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: hsl(210, 1%, 48%);
+
+}
+
+.foot-position {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#fbarleft {
+    width: 350px;
+  
+}
+
+#fbarright {
+    width: 200px;
+}
+.foot-position > p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+

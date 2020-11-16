@@ -1,33 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
     <title>Code Challenge 2: CSS Flex</title>
 </head>
+
 <body>
-<!-- nav @ the top-->
-<div id="nav">
+    <!-- nav @ the top-->
+    <div id="nav">
+        <!-- left section -->
+        <div id="left" class="nav-position">
+            <p>
+                <a>About</a>
+            </p>
 
-    <!-- left section -->
-    <div id="left" class="nav-position">
-        <p>About</p>
-        <p>Store</p>
+            <p>
+                <a>Store</a>
+            </p>
+        </div>
+
+        <!-- right section -->
+        <div id="right" class="nav-position">
+            <p>
+                <a>Gmail</a>
+            </p>
+
+            <p><a>Images</a></p>
+            <p>
+                <abbr title="Google apps">▩</abbr>
+            </p>
+            <img src="img/avatar.jpeg">
+        </div>
+
     </div>
 
-    <!-- right section -->
-    <div id="right" class="nav-position">
-        <p>Gmail</p>
-        <p>Images</p>
+    <!-- main section -->
+
+    <div id="main">
+        <a href="" id="logo"><img src="logo.png" alt="Google Logo" width="250"></a>
+
+        <div class="search-bar"><input type="text"></div>
+
+        <div id="buttons">
+            <input type="submit" value="Google Search" />
+            <input type="submit" value="I'm Feeling Lucky" />
+        </div>
+
+    </div>
+
+    <!-- bottom section -->
+    
+
+    <div id="footer">
+        <!-- Left -->
+        <div id="fbarleft" class="foot-position">
+            <p>
+                <a>Advertising</a>
+            </p>
+            <p>
+                <a>Business</a>
+            </p>
+            <p>
+                <a>How Search works</a>
+            </p>
+        </div>
+
+        <!--Right-->
+        <div id="fbarright" class="foot-position">
         <p>
-            <abbr title="Google apps">▩</abbr>
+            <a>Privacy</a>
+        </p> 
+        <p>
+            <a>Terms</a>
+        </p> 
+        <p>
+            <a>Settings</a>
         </p>
-        <img src="img/avatar.jpeg">
-    </div>
 
-</div>
+    </div>
 </body>
+
 </html>
